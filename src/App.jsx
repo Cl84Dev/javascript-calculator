@@ -21,7 +21,7 @@ const App = () => {
   }
 
   const enterOperator = (operator) => {
-    if (input === '' || /^\-/.test(input)) {
+    if (input === '' || input === '-') {
       
     } else if (input !== '' && !operatorSecondRegExp.test(input) ) {
       if (operatorRegExp.test(input)) {
