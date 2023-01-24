@@ -1,101 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 
 * {
-    box-sizing: border-box;
-    color: white;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 1.3rem;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 1.3rem;
 }
 
 .calculator {
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto;
-    width: 312px;
-    align-items: center;
-    background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 312px;
+  align-items: center;
+  background-color: black;
 }
 
 .display-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #input {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    height: 30px;
-    width: 306px;
-    margin: 2px 1px 1px 1px;
-    padding-right: 5px;
-    color: #FF7600;
-    font-size: 1rem;
+  text-align: right;
+  vertical-align: text-top;
+  word-wrap: break-word;
+  min-height: 30px;
+  width: 306px;
+  margin: 2px 1px 1px 1px;
+  padding-right: 5px;
+  padding-top: 5px;
+  color: #ff7600;
+  font-size: 1rem;
 }
 
 #display {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    height: 35px;
-    width: 306px;
-    margin: 1px;
-    padding-right: 5px;
-    font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 35px;
+  width: 306px;
+  margin: 1px;
+  padding-right: 5px;
+  font-size: 1.6rem;
 }
 
 .buttons-row {
-    display: flex;
+  display: flex;
 }
 
 .bottom {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 #clear {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65px;
-    width: 152px;
-    margin: 1px;
-    background-color: #AC3939;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 152px;
+  margin: 1px;
+  background-color: #ac3939;
 }
 
 #brand {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65px;
-    width: 152px;
-    margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 152px;
+  margin: 1px;
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65px;
-    width: 75px;
-    margin: 1px;
-    background-color: #4D4D4D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  width: 75px;
+  margin: 1px;
+  background-color: #4d4d4d;
 }
 
 #equals {
-    background-color: #004466;
+  background-color: #004466;
 }
 
-#add, #subtract, #multiply, #divide {
-    background-color: #666666;
-    cursor: pointer;
-    user-select: none;
+#add,
+#subtract,
+#multiply,
+#divide {
+  background-color: #666666;
+  cursor: pointer;
+  user-select: none;
 }
 
-.buttons:hover, #clear:hover {
-    color: black;
-    cursor: pointer;
-    user-select: none;
+.buttons:hover,
+#clear:hover {
+  color: black;
+  cursor: pointer;
+  user-select: none;
 }
